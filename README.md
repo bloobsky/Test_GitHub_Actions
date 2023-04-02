@@ -9,7 +9,7 @@ In the editor that appears, you can define the steps that your workflow will per
 ```
 yaml
 Copy code
-name: Python workflow\
+name: Python workflow
 
 on: [push]
 
