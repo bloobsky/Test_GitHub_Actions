@@ -6,7 +6,7 @@ Click the "New workflow" button, then choose the "Python application" template. 
 
 In the editor that appears, you can define the steps that your workflow will perform. Replace the existing code with the following:
 
-'''
+```
 yaml
 Copy code
 name: Python workflow\
@@ -33,7 +33,8 @@ jobs:
       - name: Print message
         run: |
           echo "All good"
-'''
+```
+
 This workflow will trigger on push events, and it will run on an Ubuntu virtual machine. The steps install the necessary dependencies, run a test using pytest, and print the message "All good".
 
 Once you've defined your workflow, click the "Start commit" button to commit the YAML file to your repository. You can add a commit message to describe the changes you made.
